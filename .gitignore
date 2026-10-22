@@ -1,0 +1,9 @@
+#Project Euler only allows first 100 problems to have public solutions. The rest of the solutions should be hidden.
+
+Platforms/Project_Euler/*
+
+!Platforms/Project_Euler/00*
+!Platforms/Project_Euler/00*/**
+
+!Platforms/Project_Euler/0100*
+!Platforms/Project_Euler/0100*/**
