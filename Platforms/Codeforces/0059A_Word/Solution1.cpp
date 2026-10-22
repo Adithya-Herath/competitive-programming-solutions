@@ -2,11 +2,6 @@
 
 int main()
 {
-
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
     std::string word;
     std::cin >> word;
     int length = static_cast<int>(word.size());

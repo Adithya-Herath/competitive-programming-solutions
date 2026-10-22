@@ -2,12 +2,6 @@
 
 int main()
 {
-
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
-    
     std::array<bool, 26> total_chars{};
     std::string username;
     std::cin >> username;

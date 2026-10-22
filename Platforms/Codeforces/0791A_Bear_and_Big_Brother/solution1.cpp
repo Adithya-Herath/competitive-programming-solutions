@@ -2,11 +2,6 @@
 
 int main()
 {
-
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
     int limak_weight, bob_weight;
     std::cin >> limak_weight >> bob_weight;
 

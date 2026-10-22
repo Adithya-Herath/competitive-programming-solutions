@@ -2,11 +2,6 @@
 
 int main()
 {
-
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
     long long int k, n, w;
     std::cin >> k >> n >> w;
 
